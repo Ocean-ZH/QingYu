@@ -1,0 +1,390 @@
+body {
+  background-color: #f0f0f0;
+  overflow-x: hidden;
+}
+.headerbg {
+  width: 10rem;
+  height: 1.2rem;
+  overflow: hidden;
+}
+.header {
+  width: 10rem;
+  height: 1.2rem;
+  background-color: #4694e6;
+  padding: 0 0.26666667rem;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.header img {
+  position: absolute;
+}
+.header .l img {
+  width: 0.74666667rem;
+  top: 50%;
+  left: 0.26666667rem;
+  transform: translate(0, -50%);
+}
+.header .m img {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 2.52rem;
+}
+.header .r img {
+  width: 0.69333333rem;
+  top: 50%;
+  right: 0.26666667rem;
+  transform: translate(0, -50%);
+}
+.tabBarsBox {
+  width: 10rem;
+  height: 1.92rem;
+  position: fixed;
+  z-index: 9;
+  left: 0;
+  bottom: 0;
+}
+.tabBarsBox .tabBars {
+  width: 10rem;
+  height: 1.30666667rem;
+  background-color: #4595e6;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+.tabBarsBox .tabBars ul {
+  margin-left: 0.26666667rem;
+}
+.tabBarsBox .tabBars ul li {
+  width: 1.89333333rem;
+  height: 1.30666667rem;
+  float: left;
+  text-align: center;
+  position: relative;
+}
+.tabBarsBox .tabBars ul li p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.32rem;
+  position: absolute;
+  left: 50%;
+  bottom: 0.13333333rem;
+  transform: translate(-50%, 0);
+}
+.tabBarsBox .tabBars ul li a {
+  display: block;
+  width: 1.6rem;
+  height: 1.30666667rem;
+  margin: 0 auto;
+}
+.tabBarsBox .tabBars ul li img {
+  position: absolute;
+  left: 50%;
+  bottom: 0.58666667rem;
+  transform: translate(-50%, 0);
+}
+.tabBarsBox .tabBars ul li:nth-of-type(1) img {
+  width: 0.61333333rem;
+  height: 0.56rem;
+}
+.tabBarsBox .tabBars ul li:nth-of-type(2) img {
+  width: 0.56rem;
+  height: 0.56rem;
+}
+.tabBarsBox .tabBars ul li:nth-of-type(3) a {
+  position: absolute;
+  width: 1.73333333rem;
+  height: 1.73333333rem;
+  background-color: #2e8ae6;
+  border-radius: 50%;
+  top: -0.61333333rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.tabBarsBox .tabBars ul li:nth-of-type(3) img {
+  width: 0.93333333rem;
+  height: 0.93333333rem;
+}
+.tabBarsBox .tabBars ul li:nth-of-type(4) img {
+  width: 0.8rem;
+  height: 0.54666667rem;
+}
+.tabBarsBox .tabBars ul li:nth-of-type(5) img {
+  width: 0.50666667rem;
+  height: 0.56rem;
+}
+.tabBarsBox .tabBars ul li.current p {
+  color: #ffffff;
+}
+/*  .banner{width: 10rem; height: 320/75rem; background-color: #fff; overflow: hidden; position: relative;
+   ul{position: absolute; }
+   li{float: left;}
+   img{width: 10rem;}
+   ol{position: absolute; right:30/75rem; bottom: 20/75rem; }
+   ol li{float: left; margin-left: 8/75rem; width: 14/75rem; height: 14/75rem; background-color: rgba(255,255,255,.5); border-radius: 50%;}
+   ol li.current{background-color: #fff;}
+} */
+/* 本例子css -------------------------------------- */
+.focus {
+  width: 10rem;
+  height: 4.26666667rem;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+.focus .hd {
+  width: 100%;
+  height: 0.10666667rem;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  text-align: center;
+}
+.focus .hd ul {
+  overflow: hidden;
+  display: -moz-box;
+  display: -webkit-box;
+  display: box;
+  height: 0.10666667rem;
+  background-color: rgba(69, 149, 230, 0.5);
+}
+.focus .hd ul li {
+  -moz-box-flex: 1;
+  -webkit-box-flex: 1;
+  box-flex: 1;
+}
+.focus .hd ul .on {
+  background: #2e8ae6;
+}
+.focus .bd {
+  position: relative;
+  z-index: 0;
+}
+.focus .bd li img {
+  width: 10rem;
+  height: 4.26666667rem;
+  display: block;
+}
+.focus .bd li a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  /* 取消链接高亮 */
+}
+/* 本例子css结束 -------------------------------------- */
+.quicknav {
+  width: 10rem;
+  height: 2.66666667rem;
+  background-color: #fff;
+  margin: 0.26666667rem 0;
+  box-sizing: border-box;
+  padding: 0.26666667rem;
+  overflow: hidden;
+  position: relative;
+}
+.quicknav li,
+.quicknav img {
+  width: 1.6rem;
+  float: left;
+}
+.quicknav li {
+  position: absolute;
+  font-size: 0.29333333rem;
+  text-align: center;
+  line-height: 0.8rem;
+}
+.quicknav li:nth-of-type(1) {
+  left: 1.2rem;
+}
+.quicknav li:nth-of-type(2) {
+  left: 50%;
+  transform: translateX(-50%);
+}
+.quicknav li:nth-of-type(3) {
+  right: 1.2rem;
+}
+.yuanchuang {
+  width: 10rem;
+  height: auto;
+  background-color: #fff;
+  overflow: hidden;
+}
+.yuanchuang .division {
+  width: 9.46666667rem;
+  height: 1px;
+  background-color: #ccc;
+  margin: 0 auto;
+}
+.yuanchuang .t {
+  width: 10rem;
+  height: 1.04rem;
+  /* border-bottom: 1px solid #ccc; */
+  background: url(../images/yuanchuang1.png) 0.4rem center no-repeat;
+  background-size: 0.44rem;
+  position: relative;
+}
+.yuanchuang .t span {
+  float: left;
+  font-size: 0.37333333rem;
+  line-height: 1.02666667rem;
+  color: #4595e6;
+  margin-left: 1.06666667rem;
+}
+.yuanchuang .t ol {
+  position: absolute;
+  right: 0.53333333rem;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.yuanchuang .t ol li {
+  width: 0.08rem;
+  height: 0.08rem;
+  background-color: #666;
+  border-radius: 50%;
+  float: left;
+  margin-left: 0.08rem;
+}
+.yuanchuang .b {
+  width: 10rem;
+  height: 5.86666667rem;
+  positon: relative;
+}
+.yuanchuang .b ul {
+  padding: 0.13333333rem 0.26666667rem;
+}
+.yuanchuang .b ul li {
+  height: auto;
+  text-align: center;
+}
+.yuanchuang .b ul li img {
+  width: 4.34666667rem;
+  height: 2.13333333rem;
+  border-radius: 0.13333333rem;
+}
+.yuanchuang .b ul li {
+  float: right;
+  margin-right: 0.26666667rem;
+}
+.yuanchuang .b ul li:nth-of-type(1) img {
+  height: 4.93333333rem;
+}
+.yuanchuang .b ul li:nth-of-type(1) {
+  float: left;
+  margin-right: 0;
+  margin-left: 0.26666667rem;
+}
+.yuanchuang .b ul li:nth-of-type(3) {
+  margin-top: 0.10666667rem;
+}
+.yuanchuang .b ul li p {
+  font-size: 0.32rem;
+  line-height: 0.26666667rem;
+}
+.yuanchuang2 {
+  width: 10rem;
+  height: 4.90666667rem;
+  background-color: #fff;
+  margin: 0.26666667rem 0;
+  position: relative;
+}
+.yuanchuang2 ul li {
+  position: absolute;
+  text-align: center;
+}
+.yuanchuang2 ul li:nth-of-type(1) {
+  width: 3.01333333rem;
+  left: 0.26666667rem;
+  top: 0.13333333rem;
+}
+.yuanchuang2 ul li:nth-of-type(2) {
+  width: 3.01333333rem;
+  left: 50%;
+  top: 0.13333333rem;
+  transform: translate(-50%, 0);
+}
+.yuanchuang2 ul li:nth-of-type(3) {
+  width: 3.01333333rem;
+  right: 0.26666667rem;
+  top: 0.13333333rem;
+}
+.yuanchuang2 ul li img {
+  width: 3.01333333rem;
+  height: 4.02666667rem;
+}
+.yuanchuang2 ul li p {
+  font-size: 0.32rem;
+  line-height: 0.26666667rem;
+}
+.renqi {
+  width: 10rem;
+  height: auto;
+  background-color: #fff;
+  overflow: hidden;
+}
+.renqi .division {
+  width: 9.46666667rem;
+  height: 1px;
+  background-color: #ccc;
+  margin: 0 auto;
+}
+.renqi .t {
+  width: 10rem;
+  height: 1.04rem;
+  /* border-bottom: 1px solid #ccc; */
+  background: url(../images/renqititle.png) 0.4rem center no-repeat;
+  background-size: 0.46666667rem;
+  position: relative;
+}
+.renqi .t span {
+  float: left;
+  font-size: 0.37333333rem;
+  line-height: 1.02666667rem;
+  color: #4595e6;
+  margin-left: 1.06666667rem;
+}
+.renqi .t ol {
+  position: absolute;
+  right: 0.53333333rem;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.renqi .t ol li {
+  width: 0.08rem;
+  height: 0.08rem;
+  background-color: #666;
+  border-radius: 50%;
+  float: left;
+  margin-left: 0.08rem;
+}
+.renqi .b {
+  width: 10rem;
+  height: 5.86666667rem;
+  positon: relative;
+}
+.renqi .b ul {
+  padding: 0.13333333rem 0.2rem;
+}
+.renqi .b ul li {
+  height: auto;
+  text-align: center;
+}
+.renqi .b ul li img {
+  width: 4.66666667rem;
+  height: 2.69333333rem;
+  border-radius: 0.13333333rem;
+}
+.renqi .b ul li {
+  float: left;
+  margin: 0 0.06666667rem;
+}
+.renqi .b ul li p {
+  font-size: 0.32rem;
+  line-height: 0.26666667rem;
+  margin-bottom: 0.21333333rem;
+}
+.test {
+  width: 9.46666667rem;
+  height: 1.33333333rem;
+  background-color: #97c9fb;
+  margin: 0 auto;
+}

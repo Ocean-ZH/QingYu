@@ -1,0 +1,128 @@
+body{background-color: #f0f0f0; overflow-x:hidden; }
+.headerbg{width: 10rem; height: 90/75rem; overflow: hidden; }
+.header{width: 10rem; height: 90/75rem; background-color: #4694e6; padding:0 20/75rem; box-sizing:border-box; position: fixed; top: 0; left: 0; z-index:99;
+    img{position: absolute; }
+    .l img{width: 56/75rem; top:50%; left:20/75rem; transform:translate(0,-50%); }
+    .m{ position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); color:#FFF; font-size:36/75rem; }
+    .r img{ width: 48/75rem; top:50%; right:20/75rem; transform:translate(0,-50%);  }
+ }
+
+.tabBarsBox{
+    width: 10rem; height: 144/75rem; position:fixed; z-index:9; left:0; bottom:0;
+    .tabBars{width: 10rem; height: 98/75rem; background-color: #4595e6; position:fixed; left:0; bottom:0; 
+        ul{margin-left: 20/75rem;}
+        ul li{width: 142/75rem; height: 98/75rem; float: left; text-align: center; position:relative; }
+        ul li p{color:rgba(255,255,255,.8); font-size: 24/75rem; position:absolute; left:50%; bottom:10/75rem; transform:translate(-50%,0); }
+        ul li a{display:block; width: 120/75rem; height: 98/75rem; margin:0 auto; }
+        ul li img{position:absolute;left:50%; bottom:44/75rem; transform:translate(-50%,0); }
+        ul li:nth-of-type(1) img{width: 46/75rem; height: 42/75rem; }
+        ul li:nth-of-type(2) img{width: 42/75rem; height: 42/75rem; }
+        ul li:nth-of-type(3) a{position:absolute; width: 130/75rem; height: 130/75rem; background-color: #2e8ae6; border-radius: 50%; top:-46/75rem; left:50%; transform:translate(-50%,0); }
+        ul li:nth-of-type(3) img{width: 70/75rem; height: 70/75rem; }
+        ul li:nth-of-type(4) img{width: 60/75rem; height: 41/75rem; }
+        ul li:nth-of-type(5) img{width: 38/75rem; height: 42/75rem; }
+        ul li.current p{color:rgba(255,255,255,1);}
+
+    }
+}
+
+.tabNav {width: 10rem; height:90/75rem; background-color: #fff; position:relative; border: 2px solid #aaa;
+    ul{width: 10rem; height:90/75rem;}
+    ul li{ width: 148/75rem; height: 54/75rem; text-align: center; line-height: 54/75rem;  border-radius: 100/75rem; position:absolute; left:50%; top:50%; cursor: pointer; }
+    ul li:nth-of-type(1){transform:translate(-296/75rem,-50%);}
+    ul li:nth-of-type(2){transform:translate(-50%,-50%);}
+    ul li:nth-of-type(3){transform:translate(148/75rem,-50%);}
+    ul li{font-size: 30/75rem; color:#333; }
+    ul li.current{ background-color: #91d9ff;  }
+}
+
+.bannerbg{width: 10rem; height: 320/75rem; background-color: #fff; position:relative; 
+    ul li{position:absolute; }
+    img{width: 10rem; height: 320/75rem;  }
+    ol{position:absolute; right:20/75rem; bottom: 0;}
+    ol li{ float: left; margin-right: 8/75rem; width: 20/75rem; height: 20/75rem; background-color: rgba(255,255,255,.6); border-radius: 50%; }
+    ol li.current{background-color: rgba(255,255,255,1);}
+}
+
+.main{width: 10rem; height: 1334/75rem; box-sizing:border-box; overflow:hidden; position:relative; left:0; top:0; }
+.main{
+    ul.page01{position:absolute; left:0; top:0; width: 10rem; overflow:hidden; }
+    ul.page02,ul.page03{position:absolute; left:0; top:0; width: 10rem; overflow:hidden; }
+}
+.main ul.page01{
+    .details ul{background-color: #fff; padding:0 20/75rem; }
+    .details li{width: 10rem; height: 185/75rem; border-bottom: 1px solid #aaa;  position:relative; 
+        a{dispaly:block; width: 710/75rem; height: 185/75rem; }
+        img{float: left; width: 180/75rem; height: 140/75rem; margin-top: 24/75rem; margin-right: 20/75rem; }
+        .discribe{float: left;
+            h3{font-size:28/75rem; color:#333; font-weight:normal; margin-top: 24/75rem; }
+            h4{font-size: 24/75rem; color:#4595e6; font-weight:normal; margin-top: 18/75rem; 
+                img{width: 26/75rem; height: 27/75rem; margin:0 16/75rem 0 0; }
+            }
+            p{font-size:22/75rem; color:#999; margin-top: 30/75rem;
+                span{ display:inline-block; width: 24/75rem; height: 28/75rem; background-size: cover; }
+                span:nth-of-type(1){background: url(../images/moment/moments-joins.png) center bottom no-repeat;}
+                span:nth-of-type(2){background: url(../images/moment/moments-publish.png) center bottom no-repeat;}
+            }
+        }
+        .todaynum{width: 84/75rem; height: 84/75rem; border-radius: 50%; background-color: #ff1a40; font-size: 22/75rem; color:#FFF; position:absolute; right:40/75rem; top:50%; transform:translate(0,-50%); text-align: center; line-height: 42/75rem; }
+    }
+}
+
+.main ul.page02{width: 10rem;background-color: #e6e6e6; 
+
+    >li{padding:0 20/75rem; width: 10rem; height: 450/75rem; background-color: #fff; border-bottom: 1px solid #aaa; margin-top: 40/75rem; 
+        .commentbox{width: 710/75rem; height: 450/75rem; position:relative; /* background-color: #AFC; */ 
+            .head{width: 100/75rem; height: 100/75rem; border-radius: 50%; background: url(../images/moment/comment-head01.png) 0 0 no-repeat;  background-size: cover; border: 10px solid #fff; position:absolute; left: 0; top: -20/75rem; }
+            .share{width: 24/75rem; height: 24/75rem; background: url(../images/moment/moments-share.png) 0 0 no-repeat; background-size: cover; position:absolute; right: 20/75rem; top: 20/75rem; cursor: pointer; }
+            .name{position:absolute; top:20/75rem; left:115/75rem;
+                h2{font-size: 22/75rem; color:#666; }
+                p{font-size: 16/75rem; color:#999; margin-top: 8/75rem; }
+            }
+            .content{width: 560/75rem; position:absolute; top:90/75rem; left:114/75rem;
+                p{font-size:22/75rem; color:#666; }
+            }
+            .divider{ width:710/75rem; height: 1px; background-color: #aaa; position:absolute; top:190/75rem;  }
+            ol{width:710/75rem; height: 160/75rem; background-color: #fff; position:absolute; bottom:90/75rem;  
+                li{float: left; width: 140/75rem; height: 160/75rem; margin:0 18/75rem;
+                    img{width: 140/75rem; height: 160/75rem;  }
+                }
+            }
+            .from{ font-size:20/75rem; color:#999; position:absolute; bottom:90/75rem; left: 20/75rem; bottom:20/75rem; }
+            .commentnum,.likenum{width: 80/75rem; height: 30/75rem; background-color: #fff; border: 1px solid #666; box-sizing:border-box; border-radius: 100/75rem; position:absolute; bottom:20/75rem; font-size: 18/75rem; color:#999; cursor: pointer; 
+                p{float:right; margin-right:10/75rem; line-height: 30/75rem; }
+                img{float: left; width: 20/75rem; height: 20/75rem; margin-left: 10/75rem; margin-top: 5/75rem; }
+            }
+            .commentnum{ right:20/75rem; }
+            .likenum{right:120/75rem; background:url(../images/moment/moments-like.png) 10/75rem center no-repeat; background-size:20/75rem; }
+            .likenum.current{ background:url(../images/moment/moments-like-selected.png) 10/75rem center no-repeat; background-size:20/75rem; }
+        }
+    }
+}
+
+.main ul.page03{width: 10rem;background-color: #e6e6e6;
+
+    >li{ width: 10rem;  background-color: #fff; border-top: 1px solid #aaa; box-sizing: border-box; margin:20/75rem 0;
+        h3{width: 710/75rem; height: 90/75rem; margin-left: 20/75rem; font-size: 28/75rem; color:#666; font-weight: normal; box-sizing:border-box; line-height: 90/75rem; 
+            span{float: left; margin-top: 39/75rem; margin-right: 20/75rem; width: 12/75rem; height: 12/75rem; border-radius: 50%; background-color: #ff1a40;  }
+        }
+        ol{padding-left: 20/75rem; border-top: 1px solid #aaa; box-sizing:border-box;
+            li{height: 270/75rem; border-bottom: 1px solid #aaa; box-sizing:border-box;
+                a{display:block; height: 270/75rem;position:relative;
+                    .continue{width: 140/75rem; height: 120/75rem; position:absolute; right: 40/75rem; top: 50%; transform:translateY(-50%);
+                        img{float: left; width: 60/75rem; height: 60/75rem;margin: 0 0 0 28/75rem;}
+                        p{float: left; font-size: 28/75rem; margin-top: 10/75rem; color:#999; }
+                    }
+                } 
+                img{float: left; width: 156/75rem; height: 210/75rem; margin-top: 30/75rem; margin-right: 20/75rem; }
+                .info{float: left; padding-top: 70/75rem;
+                    h4{ font-size: 30/75rem; color:#333; margin-bottom: 10/75rem; }
+                    p{ font-size: 24/75rem; color:#666; }
+                }
+                
+            }
+        } 
+    }
+}
+
+.footerbg{width: 10rem; height: 98/75rem; background-color: #fff; }

@@ -1,0 +1,202 @@
+body {
+  background-color: #f0f0f0;
+  overflow-x: hidden;
+}
+.headerbg {
+  width: 10rem;
+  height: 1.2rem;
+  overflow: hidden;
+}
+.header {
+  width: 10rem;
+  height: 1.2rem;
+  background-color: #4694e6;
+  padding: 0 0.26666667rem;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.header img {
+  position: absolute;
+}
+.header .l img {
+  width: 0.74666667rem;
+  top: 50%;
+  left: 0.26666667rem;
+  transform: translate(0, -50%);
+}
+.header .m {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFF;
+  font-size: 0.48rem;
+}
+.header .r img {
+  width: 0.64rem;
+  top: 50%;
+  right: 0.26666667rem;
+  transform: translate(0, -50%);
+}
+.tabBarsBox {
+  width: 10rem;
+  height: 1.92rem;
+  position: fixed;
+  z-index: 9;
+  left: 0;
+  bottom: 0;
+}
+.tabBarsBox .tabBars {
+  width: 10rem;
+  height: 1.30666667rem;
+  background-color: #4595e6;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+.tabBarsBox .tabBars ul {
+  margin-left: 0.26666667rem;
+}
+.tabBarsBox .tabBars ul li {
+  width: 1.89333333rem;
+  height: 1.30666667rem;
+  float: left;
+  text-align: center;
+  position: relative;
+}
+.tabBarsBox .tabBars ul li p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.32rem;
+  position: absolute;
+  left: 50%;
+  bottom: 0.13333333rem;
+  transform: translate(-50%, 0);
+}
+.tabBarsBox .tabBars ul li a {
+  display: block;
+  width: 1.6rem;
+  height: 1.30666667rem;
+  margin: 0 auto;
+}
+.tabBarsBox .tabBars ul li img {
+  position: absolute;
+  left: 50%;
+  bottom: 0.58666667rem;
+  transform: translate(-50%, 0);
+}
+.tabBarsBox .tabBars ul li:nth-of-type(1) img {
+  width: 0.61333333rem;
+  height: 0.56rem;
+}
+.tabBarsBox .tabBars ul li:nth-of-type(2) img {
+  width: 0.56rem;
+  height: 0.56rem;
+}
+.tabBarsBox .tabBars ul li:nth-of-type(3) a {
+  position: absolute;
+  width: 1.73333333rem;
+  height: 1.73333333rem;
+  background-color: #2e8ae6;
+  border-radius: 50%;
+  top: -0.61333333rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.tabBarsBox .tabBars ul li:nth-of-type(3) img {
+  width: 0.93333333rem;
+  height: 0.93333333rem;
+}
+.tabBarsBox .tabBars ul li:nth-of-type(4) img {
+  width: 0.8rem;
+  height: 0.54666667rem;
+}
+.tabBarsBox .tabBars ul li:nth-of-type(5) img {
+  width: 0.50666667rem;
+  height: 0.56rem;
+}
+.tabBarsBox .tabBars ul li.current p {
+  color: #ffffff;
+}
+.tabNav {
+  width: 10rem;
+  height: 1.2rem;
+  background-color: #fff;
+  position: relative;
+  border: 2px solid #aaa;
+}
+.tabNav ul {
+  width: 10rem;
+  height: 1.2rem;
+}
+.tabNav ul li {
+  width: 2.13333333rem;
+  height: 0.72rem;
+  text-align: center;
+  line-height: 0.72rem;
+  border-radius: 1.33333333rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  color: #666;
+  cursor: pointer;
+}
+.tabNav ul li:nth-of-type(1) {
+  transform: translate(-150%, -50%);
+}
+.tabNav ul li:nth-of-type(2) {
+  transform: translate(50%, -50%);
+}
+.tabNav ul li {
+  font-size: 0.4rem;
+  color: #333;
+}
+.tabNav ul li.current {
+  background-color: #91d9ff;
+}
+.main {
+  width: 10rem;
+  height: 17.78666667rem;
+  box-sizing: border-box;
+  padding: 0 0.26666667rem;
+  overflow: hidden;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+.main ul.page01 {
+  position: absolute;
+  left: 0.26666667rem !important;
+  top: 0;
+  width: 10rem;
+  overflow: hidden;
+}
+.main ul.page02 {
+  position: absolute;
+  left: 0.26666667rem !important;
+  top: 0;
+  width: 10rem;
+  overflow: hidden;
+}
+.main ul {
+  width: 9.86666667rem;
+  background-color: #f0f0f0;
+}
+.main ul li {
+  float: left;
+  width: 2.93333333rem;
+  border-radius: 0.13333333rem;
+  margin-top: 0.4rem;
+  margin-right: 0.33333333rem;
+}
+.main ul img {
+  width: 2.93333333rem;
+  height: 2.93333333rem;
+}
+.main ul p {
+  font-size: 0.4rem;
+  color: #333;
+  text-align: center;
+}
