@@ -1,0 +1,511 @@
+body {
+  background-color: #f0f0f0;
+  overflow-x: hidden;
+}
+.headerbg {
+  width: 10rem;
+  height: 1.2rem;
+  overflow: hidden;
+}
+.header {
+  width: 10rem;
+  height: 1.2rem;
+  background-color: #4694e6;
+  padding: 0 0.26666667rem;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.header img {
+  position: absolute;
+}
+.header .l img {
+  width: 0.74666667rem;
+  top: 50%;
+  left: 0.26666667rem;
+  transform: translate(0, -50%);
+}
+.header .m {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFF;
+  font-size: 0.48rem;
+}
+.header .r img {
+  width: 0.64rem;
+  top: 50%;
+  right: 0.26666667rem;
+  transform: translate(0, -50%);
+}
+.tabBarsBox {
+  width: 10rem;
+  height: 1.92rem;
+  position: fixed;
+  z-index: 9;
+  left: 0;
+  bottom: 0;
+}
+.tabBarsBox .tabBars {
+  width: 10rem;
+  height: 1.30666667rem;
+  background-color: #4595e6;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+.tabBarsBox .tabBars ul {
+  margin-left: 0.26666667rem;
+}
+.tabBarsBox .tabBars ul li {
+  width: 1.89333333rem;
+  height: 1.30666667rem;
+  float: left;
+  text-align: center;
+  position: relative;
+}
+.tabBarsBox .tabBars ul li p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.32rem;
+  position: absolute;
+  left: 50%;
+  bottom: 0.13333333rem;
+  transform: translate(-50%, 0);
+}
+.tabBarsBox .tabBars ul li a {
+  display: block;
+  width: 1.6rem;
+  height: 1.30666667rem;
+  margin: 0 auto;
+}
+.tabBarsBox .tabBars ul li img {
+  position: absolute;
+  left: 50%;
+  bottom: 0.58666667rem;
+  transform: translate(-50%, 0);
+}
+.tabBarsBox .tabBars ul li:nth-of-type(1) img {
+  width: 0.61333333rem;
+  height: 0.56rem;
+}
+.tabBarsBox .tabBars ul li:nth-of-type(2) img {
+  width: 0.56rem;
+  height: 0.56rem;
+}
+.tabBarsBox .tabBars ul li:nth-of-type(3) a {
+  position: absolute;
+  width: 1.73333333rem;
+  height: 1.73333333rem;
+  background-color: #2e8ae6;
+  border-radius: 50%;
+  top: -0.61333333rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.tabBarsBox .tabBars ul li:nth-of-type(3) img {
+  width: 0.93333333rem;
+  height: 0.93333333rem;
+}
+.tabBarsBox .tabBars ul li:nth-of-type(4) img {
+  width: 0.8rem;
+  height: 0.54666667rem;
+}
+.tabBarsBox .tabBars ul li:nth-of-type(5) img {
+  width: 0.50666667rem;
+  height: 0.56rem;
+}
+.tabBarsBox .tabBars ul li.current p {
+  color: #ffffff;
+}
+.tabNav {
+  width: 10rem;
+  height: 1.2rem;
+  background-color: #fff;
+  position: relative;
+  border: 2px solid #aaa;
+}
+.tabNav ul {
+  width: 10rem;
+  height: 1.2rem;
+}
+.tabNav ul li {
+  width: 1.97333333rem;
+  height: 0.72rem;
+  text-align: center;
+  line-height: 0.72rem;
+  border-radius: 1.33333333rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  cursor: pointer;
+}
+.tabNav ul li:nth-of-type(1) {
+  transform: translate(-3.94666667rem, -50%);
+}
+.tabNav ul li:nth-of-type(2) {
+  transform: translate(-50%, -50%);
+}
+.tabNav ul li:nth-of-type(3) {
+  transform: translate(1.97333333rem, -50%);
+}
+.tabNav ul li {
+  font-size: 0.4rem;
+  color: #333;
+}
+.tabNav ul li.current {
+  background-color: #91d9ff;
+}
+.bannerbg {
+  width: 10rem;
+  height: 4.26666667rem;
+  background-color: #fff;
+  position: relative;
+}
+.bannerbg ul li {
+  position: absolute;
+}
+.bannerbg img {
+  width: 10rem;
+  height: 4.26666667rem;
+}
+.bannerbg ol {
+  position: absolute;
+  right: 0.26666667rem;
+  bottom: 0;
+}
+.bannerbg ol li {
+  float: left;
+  margin-right: 0.10666667rem;
+  width: 0.26666667rem;
+  height: 0.26666667rem;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+}
+.bannerbg ol li.current {
+  background-color: #ffffff;
+}
+.main {
+  width: 10rem;
+  height: 17.78666667rem;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+.main ul.page01 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 10rem;
+  overflow: hidden;
+}
+.main ul.page02,
+.main ul.page03 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 10rem;
+  overflow: hidden;
+}
+.main ul.page01 .details ul {
+  background-color: #fff;
+  padding: 0 0.26666667rem;
+}
+.main ul.page01 .details li {
+  width: 10rem;
+  height: 2.46666667rem;
+  border-bottom: 1px solid #aaa;
+  position: relative;
+}
+.main ul.page01 .details li a {
+  dispaly: block;
+  width: 9.46666667rem;
+  height: 2.46666667rem;
+}
+.main ul.page01 .details li img {
+  float: left;
+  width: 2.4rem;
+  height: 1.86666667rem;
+  margin-top: 0.32rem;
+  margin-right: 0.26666667rem;
+}
+.main ul.page01 .details li .discribe {
+  float: left;
+}
+.main ul.page01 .details li .discribe h3 {
+  font-size: 0.37333333rem;
+  color: #333;
+  font-weight: normal;
+  margin-top: 0.32rem;
+}
+.main ul.page01 .details li .discribe h4 {
+  font-size: 0.32rem;
+  color: #4595e6;
+  font-weight: normal;
+  margin-top: 0.24rem;
+}
+.main ul.page01 .details li .discribe h4 img {
+  width: 0.34666667rem;
+  height: 0.36rem;
+  margin: 0 0.21333333rem 0 0;
+}
+.main ul.page01 .details li .discribe p {
+  font-size: 0.29333333rem;
+  color: #999;
+  margin-top: 0.4rem;
+}
+.main ul.page01 .details li .discribe p span {
+  display: inline-block;
+  width: 0.32rem;
+  height: 0.37333333rem;
+  background-size: cover;
+}
+.main ul.page01 .details li .discribe p span:nth-of-type(1) {
+  background: url(../images/moment/moments-joins.png) center bottom no-repeat;
+}
+.main ul.page01 .details li .discribe p span:nth-of-type(2) {
+  background: url(../images/moment/moments-publish.png) center bottom no-repeat;
+}
+.main ul.page01 .details li .todaynum {
+  width: 1.12rem;
+  height: 1.12rem;
+  border-radius: 50%;
+  background-color: #ff1a40;
+  font-size: 0.29333333rem;
+  color: #FFF;
+  position: absolute;
+  right: 0.53333333rem;
+  top: 50%;
+  transform: translate(0, -50%);
+  text-align: center;
+  line-height: 0.56rem;
+}
+.main ul.page02 {
+  width: 10rem;
+  background-color: #e6e6e6;
+}
+.main ul.page02 > li {
+  padding: 0 0.26666667rem;
+  width: 10rem;
+  height: 6rem;
+  background-color: #fff;
+  border-bottom: 1px solid #aaa;
+  margin-top: 0.53333333rem;
+}
+.main ul.page02 > li .commentbox {
+  width: 9.46666667rem;
+  height: 6rem;
+  position: relative;
+  /* background-color: #AFC; */
+}
+.main ul.page02 > li .commentbox .head {
+  width: 1.33333333rem;
+  height: 1.33333333rem;
+  border-radius: 50%;
+  background: url(../images/moment/comment-head01.png) 0 0 no-repeat;
+  background-size: cover;
+  border: 10px solid #fff;
+  position: absolute;
+  left: 0;
+  top: -0.26666667rem;
+}
+.main ul.page02 > li .commentbox .share {
+  width: 0.32rem;
+  height: 0.32rem;
+  background: url(../images/moment/moments-share.png) 0 0 no-repeat;
+  background-size: cover;
+  position: absolute;
+  right: 0.26666667rem;
+  top: 0.26666667rem;
+  cursor: pointer;
+}
+.main ul.page02 > li .commentbox .name {
+  position: absolute;
+  top: 0.26666667rem;
+  left: 1.53333333rem;
+}
+.main ul.page02 > li .commentbox .name h2 {
+  font-size: 0.29333333rem;
+  color: #666;
+}
+.main ul.page02 > li .commentbox .name p {
+  font-size: 0.21333333rem;
+  color: #999;
+  margin-top: 0.10666667rem;
+}
+.main ul.page02 > li .commentbox .content {
+  width: 7.46666667rem;
+  position: absolute;
+  top: 1.2rem;
+  left: 1.52rem;
+}
+.main ul.page02 > li .commentbox .content p {
+  font-size: 0.29333333rem;
+  color: #666;
+}
+.main ul.page02 > li .commentbox .divider {
+  width: 9.46666667rem;
+  height: 1px;
+  background-color: #aaa;
+  position: absolute;
+  top: 2.53333333rem;
+}
+.main ul.page02 > li .commentbox ol {
+  width: 9.46666667rem;
+  height: 2.13333333rem;
+  background-color: #fff;
+  position: absolute;
+  bottom: 1.2rem;
+}
+.main ul.page02 > li .commentbox ol li {
+  float: left;
+  width: 1.86666667rem;
+  height: 2.13333333rem;
+  margin: 0 0.24rem;
+}
+.main ul.page02 > li .commentbox ol li img {
+  width: 1.86666667rem;
+  height: 2.13333333rem;
+}
+.main ul.page02 > li .commentbox .from {
+  font-size: 0.26666667rem;
+  color: #999;
+  position: absolute;
+  bottom: 1.2rem;
+  left: 0.26666667rem;
+  bottom: 0.26666667rem;
+}
+.main ul.page02 > li .commentbox .commentnum,
+.main ul.page02 > li .commentbox .likenum {
+  width: 1.06666667rem;
+  height: 0.4rem;
+  background-color: #fff;
+  border: 1px solid #666;
+  box-sizing: border-box;
+  border-radius: 1.33333333rem;
+  position: absolute;
+  bottom: 0.26666667rem;
+  font-size: 0.24rem;
+  color: #999;
+  cursor: pointer;
+}
+.main ul.page02 > li .commentbox .commentnum p,
+.main ul.page02 > li .commentbox .likenum p {
+  float: right;
+  margin-right: 0.13333333rem;
+  line-height: 0.4rem;
+}
+.main ul.page02 > li .commentbox .commentnum img,
+.main ul.page02 > li .commentbox .likenum img {
+  float: left;
+  width: 0.26666667rem;
+  height: 0.26666667rem;
+  margin-left: 0.13333333rem;
+  margin-top: 0.06666667rem;
+}
+.main ul.page02 > li .commentbox .commentnum {
+  right: 0.26666667rem;
+}
+.main ul.page02 > li .commentbox .likenum {
+  right: 1.6rem;
+  background: url(../images/moment/moments-like.png) 0.13333333rem center no-repeat;
+  background-size: 0.26666667rem;
+}
+.main ul.page02 > li .commentbox .likenum.current {
+  background: url(../images/moment/moments-like-selected.png) 0.13333333rem center no-repeat;
+  background-size: 0.26666667rem;
+}
+.main ul.page03 {
+  width: 10rem;
+  background-color: #e6e6e6;
+}
+.main ul.page03 > li {
+  width: 10rem;
+  background-color: #fff;
+  border-top: 1px solid #aaa;
+  box-sizing: border-box;
+  margin: 0.26666667rem 0;
+}
+.main ul.page03 > li h3 {
+  width: 9.46666667rem;
+  height: 1.2rem;
+  margin-left: 0.26666667rem;
+  font-size: 0.37333333rem;
+  color: #666;
+  font-weight: normal;
+  box-sizing: border-box;
+  line-height: 1.2rem;
+}
+.main ul.page03 > li h3 span {
+  float: left;
+  margin-top: 0.52rem;
+  margin-right: 0.26666667rem;
+  width: 0.16rem;
+  height: 0.16rem;
+  border-radius: 50%;
+  background-color: #ff1a40;
+}
+.main ul.page03 > li ol {
+  padding-left: 0.26666667rem;
+  border-top: 1px solid #aaa;
+  box-sizing: border-box;
+}
+.main ul.page03 > li ol li {
+  height: 3.6rem;
+  border-bottom: 1px solid #aaa;
+  box-sizing: border-box;
+}
+.main ul.page03 > li ol li a {
+  display: block;
+  height: 3.6rem;
+  position: relative;
+}
+.main ul.page03 > li ol li a .continue {
+  width: 1.86666667rem;
+  height: 1.6rem;
+  position: absolute;
+  right: 0.53333333rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.main ul.page03 > li ol li a .continue img {
+  float: left;
+  width: 0.8rem;
+  height: 0.8rem;
+  margin: 0 0 0 0.37333333rem;
+}
+.main ul.page03 > li ol li a .continue p {
+  float: left;
+  font-size: 0.37333333rem;
+  margin-top: 0.13333333rem;
+  color: #999;
+}
+.main ul.page03 > li ol li img {
+  float: left;
+  width: 2.08rem;
+  height: 2.8rem;
+  margin-top: 0.4rem;
+  margin-right: 0.26666667rem;
+}
+.main ul.page03 > li ol li .info {
+  float: left;
+  padding-top: 0.93333333rem;
+}
+.main ul.page03 > li ol li .info h4 {
+  font-size: 0.4rem;
+  color: #333;
+  margin-bottom: 0.13333333rem;
+}
+.main ul.page03 > li ol li .info p {
+  font-size: 0.32rem;
+  color: #666;
+}
+.footerbg {
+  width: 10rem;
+  height: 1.30666667rem;
+  background-color: #fff;
+}

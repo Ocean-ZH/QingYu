@@ -1,0 +1,152 @@
+body {
+  background-color: #f0f0f0;
+  overflow-x: hidden;
+}
+.headerbg {
+  width: 10rem;
+  height: 1.2rem;
+  overflow: hidden;
+}
+.header {
+  width: 10rem;
+  height: 1.2rem;
+  background-color: #4595e6;
+  padding: 0 0.26666667rem;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.header img {
+  position: absolute;
+}
+.header .l img {
+  width: 0.4rem;
+  height: 0.64rem;
+  top: 50%;
+  left: 0.26666667rem;
+  transform: translate(0, -50%);
+  cursor: pointer;
+}
+.header .m {
+  position: relative;
+  width: 7.06666667rem;
+  height: 0.74666667rem;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.header .m input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 6.24rem;
+  height: 0.74666667rem;
+  font-size: 0.34666667rem;
+  padding-left: 0.29333333rem;
+  box-sizing: border-box;
+  border-radius: 0.37333333rem 0 0 0.37333333rem;
+  line-height: 0.74666667rem;
+}
+.header .m a {
+  position: absolute;
+  width: 0.82666667rem;
+  height: 0.74666667rem;
+  right: 0;
+  top: 0;
+  background-color: #fff;
+  border-radius: 0 0.37333333rem 0.37333333rem 0;
+  text-align: center;
+  line-height: 4200rem;
+}
+.header .m a img {
+  width: 0.44rem;
+  height: 0.44rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.header .r img {
+  width: 0.66666667rem;
+  height: 0.62666667rem;
+  top: 50%;
+  right: 0.26666667rem;
+  transform: translate(0, -50%);
+}
+.spacing01 {
+  width: 10rem;
+  height: 0.82666667rem;
+  line-height: 0.82666667rem;
+  font-size: 0.32rem;
+  color: #666;
+  padding-left: 0.26666667rem;
+  box-sizing: border-box;
+}
+.history {
+  width: 10rem;
+  background-color: #fff;
+}
+.history ul {
+  width: 10rem;
+  padding: 0 0.26666667rem;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.history ul li {
+  font-size: 0.4rem;
+  color: #666;
+  height: 1.36rem;
+  border-bottom: 2px solid #ccc;
+  line-height: 1.36rem;
+  padding-left: 0.56rem;
+  box-sizing: border-box;
+  background: url(../images/history-clock.png) left center no-repeat;
+  background-size: 0.45333333rem;
+  cursor: pointer;
+  position: relative;
+}
+.history ul li img {
+  width: 0.34666667rem;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.history p {
+  height: 1.06666667rem;
+  font-size: 0.42666667rem;
+  color: #999;
+  text-align: center;
+  line-height: 1.06666667rem;
+  cursor: pointer;
+}
+.spacing02 {
+  width: 10rem;
+  height: 0.90666667rem;
+  line-height: 0.90666667rem;
+  font-size: 0.4rem;
+  color: #666;
+  padding-left: 0.26666667rem;
+  box-sizing: border-box;
+}
+.hotsearch {
+  width: 10rem;
+  padding: 0 0.26666667rem;
+  box-sizing: border-box;
+}
+.hotsearch a {
+  float: left;
+  background-color: #b2e5ff;
+  border: 2px solid #4595e6;
+  font-size: 0.4rem;
+  color: #4595e6;
+  text-align: center;
+  line-height: 0.74666667rem;
+  padding: 0 0.4rem;
+  margin-right: 0.24rem;
+  margin-bottom: 0.4rem;
+  border-radius: 0.42666667rem;
+  font-family: '微软雅黑';
+}

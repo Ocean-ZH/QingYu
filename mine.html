@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+        <!-- 是否启动webapp功能，会删除默认的苹果工具栏和菜单栏。 -->
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <!-- 这个主要是根据实际的页面设计的主体色为搭配来进行设置。 -->
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <!-- 忽略页面中的数字识别为电话号码,email识别 -->
+        <meta name="format-detection"content="telephone=no, email=no" />
+        <!-- 启用360浏览器的极速模式(webkit) -->
+        <meta name="renderer" content="webkit">
+        <!-- 避免IE使用兼容模式 -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- 针对手持设备优化，主要是针对一些老的不识别viewport的浏览器，比如黑莓 -->
+        <meta name="HandheldFriendly" content="true">
+        <!-- 微软的老式浏览器 -->
+        <meta name="MobileOptimized" content="320">
+        <!-- uc强制竖屏 -->
+        <meta name="screen-orientation" content="portrait">
+        <!-- QQ强制竖屏 -->
+        <meta name="x5-orientation" content="portrait">
+        <!-- UC强制全屏 -->
+        <meta name="full-screen" content="yes">
+        <!-- QQ强制全屏 -->
+        <meta name="x5-fullscreen" content="true">
+        <!-- UC应用模式 -->
+        <meta name="browsermode" content="application">
+        <!-- QQ应用模式 -->
+        <meta name="x5-page-mode" content="app">
+        <!-- windows phone 点击无高光 -->
+        <meta name="msapplication-tap-highlight" content="no">
+        <title>demo</title>
+        <link rel="stylesheet" type="text/css" href="css/mobilereset.css" />
+        <link rel="stylesheet" type="text/css" href="css/mine.css" />
+        <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/reset.js" type="text/javascript"></script>
+        <script src="js/pageSwitch.js" type="text/javascript"></script>
+        <script src="js/mine.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div class="header">
+            <span class="l"><img src="images/header-back.png" height="48" width="30" alt="" /></span>
+            <span class="m">我的</span>
+            <span class="r"><a href="#"><img src="images/mine/mine-settings.png" height="52" width="54" alt="" /></a></span>
+        </div>
+        <div class="headerbg">
+            <div class="face"><img src="images/mine/mine-face.png" height="154" width="154" alt="" /><span class="crown"><img src="images/mine/mine-crown.png" height="35" width="42" alt="" /></span></div>
+            <span class="lv"><img src="images/mine/mine-LV9.png" height="26" width="50" alt="" /></span>
+            <div class="name"><p>владимир путин</p></div>
+
+        </div>
+        <div class="tabBarsBox">
+            <div class="tabBars">
+                <ul>
+                    <li><a href="index.html"><img src="images/tabBars-01.png" height="42" width="46" alt="" /><p>首页</p></a></li>
+                    <li><a href="classify.html"><img src="images/tabBars-02.png" height="42" width="42" alt="" /><p>分类</p></a></li>
+                    <li><a href="moments.html"><img src="images/tabBars-03.png" height="70" width="70" alt="" /><p>圈子</p></a></li>
+                    <li><a href="bookshelf-collection.html"><img src="images/tabBars-04.png"  alt="" /><p>书架</p></a></li>
+                    <li class="current"><a href="mine.html"><img src="images/tabBars-05-selected.png" height="42" width="38" alt="" /><p>我的</p></a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class='main'>
+            <div class="list01">
+                <ul>
+                    <li>
+                        <span><img src="images/mine/mine-collect.png" height="47" width="50" alt="" /></span>
+                        <p>我的收藏</p>
+                        <img src="images/mine/mine-lg.png" height="48" width="25" alt="" class="more"/>
+                    </li>
+                    <li>
+                        <span><img src="images/mine/mine-time.png" height="50" width="50" alt="" /></span>
+                        <p>阅读历史</p>
+                        <img src="images/mine/mine-lg.png" height="48" width="25" alt="" class="more"/>
+                    </li>
+                    <li>
+                        <span><img src="images/mine/mine-download.png" height="46" width="47" alt="" /></span>
+                        <p>下载管理</p>
+                        <img src="images/mine/mine-lg.png" height="48" width="25" alt="" class="more"/>
+                    </li>
+                </ul>
+            </div>
+            <div class="list02">
+                <ul>
+                    <li>
+                        <span><img src="images/mine/mine-message.png" height="50" width="50" alt="" /></span>
+                        <p>我的消息</p>
+                        <img src="images/mine/mine-lg.png" height="48" width="25" alt="" class="more"/>
+                    </li>
+                    <li>
+                        <span><img src="images/mine/mine-hot.png" height="52" width="40" alt="" /></span>
+                        <p>热门推荐</p>
+                        <img src="images/mine/mine-lg.png" height="48" width="25" alt="" class="more"/>
+                    </li>
+                    <li>
+                        <span><img src="images/mine/mine-feedback.png" height="51" width="50" alt="" /></span>
+                        <p>意见反馈</p>
+                        <img src="images/mine/mine-lg.png" height="48" width="25" alt="" class="more"/>
+                    </li>
+                    <li>
+                        <span><img src="images/mine/mine-qingyu.png" height="51" width="50" alt="" /></span>
+                        <p>关于轻羽</p>
+                        <img src="images/mine/mine-lg.png" height="48" width="25" alt="" class="more"/>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- <div class="footerbg"></div> -->
+    </body>
+</html>

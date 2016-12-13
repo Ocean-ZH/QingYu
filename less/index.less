@@ -1,0 +1,110 @@
+body{background-color: #f0f0f0; overflow-x:hidden; }
+.headerbg{width: 10rem; height: 90/75rem; overflow: hidden; }
+.header{width: 10rem; height: 90/75rem; background-color: #4694e6; padding:0 20/75rem; box-sizing:border-box; position: fixed; top: 0; left: 0; z-index:99;
+    img{position: absolute; }
+    .l img{width: 56/75rem; top:50%; left:20/75rem; transform:translate(0,-50%); }
+    .m img{ left:50%; top:50%; transform:translate(-50%,-50%); width: 189/75rem; }
+    .r img{ width: 52/75rem; top:50%; right:20/75rem; transform:translate(0,-50%);  }
+ }
+
+.tabBarsBox{
+    width: 10rem; height: 144/75rem; position:fixed; z-index:9; left:0; bottom:0;
+    .tabBars{width: 10rem; height: 98/75rem; background-color: #4595e6; position:fixed; left:0; bottom:0; 
+        ul{margin-left: 20/75rem;}
+        ul li{width: 142/75rem; height: 98/75rem; float: left; text-align: center; position:relative; }
+        ul li p{color:rgba(255,255,255,.8); font-size: 24/75rem; position:absolute; left:50%; bottom:10/75rem; transform:translate(-50%,0); }
+        ul li a{display:block; width: 120/75rem; height: 98/75rem; margin:0 auto; }
+        ul li img{position:absolute;left:50%; bottom:44/75rem; transform:translate(-50%,0); }
+        ul li:nth-of-type(1) img{width: 46/75rem; height: 42/75rem; }
+        ul li:nth-of-type(2) img{width: 42/75rem; height: 42/75rem; }
+        ul li:nth-of-type(3) a{position:absolute; width: 130/75rem; height: 130/75rem; background-color: #2e8ae6; border-radius: 50%; top:-46/75rem; left:50%; transform:translate(-50%,0); }
+        ul li:nth-of-type(3) img{width: 70/75rem; height: 70/75rem; }
+        ul li:nth-of-type(4) img{width: 60/75rem; height: 41/75rem; }
+        ul li:nth-of-type(5) img{width: 38/75rem; height: 42/75rem; }
+        ul li.current p{color:rgba(255,255,255,1);}
+
+    }
+}
+
+/*  .banner{width: 10rem; height: 320/75rem; background-color: #fff; overflow: hidden; position: relative;
+   ul{position: absolute; }
+   li{float: left;}
+   img{width: 10rem;}
+   ol{position: absolute; right:30/75rem; bottom: 20/75rem; }
+   ol li{float: left; margin-left: 8/75rem; width: 14/75rem; height: 14/75rem; background-color: rgba(255,255,255,.5); border-radius: 50%;}
+   ol li.current{background-color: #fff;}
+} */
+
+/* 本例子css -------------------------------------- */
+    .focus{ width:10rem; height:320/75rem;  margin:0 auto; position:relative; overflow:hidden;   }
+    .focus .hd{ width:100%; height:8/75rem;  position:absolute; z-index:1; bottom:0; text-align:center;  }
+    .focus .hd ul{ overflow:hidden; display:-moz-box; display:-webkit-box; display:box; height:8/75rem; background-color:rgba(69,149,230,0.5);   }
+    .focus .hd ul li{ -moz-box-flex:1; -webkit-box-flex:1; box-flex:1; }
+    .focus .hd ul .on{ background:#2e8ae6;  }
+    .focus .bd{ position:relative; z-index:0; }
+    .focus .bd li img{ width:10rem;  height:320/75rem; display:block; }
+    .focus .bd li a{ -webkit-tap-highlight-color:rgba(0, 0, 0, 0); /* 取消链接高亮 */ }
+/* 本例子css结束 -------------------------------------- */
+
+.quicknav{
+    width: 10rem; height: 200/75rem; background-color: #fff; margin: 20/75rem 0; box-sizing:border-box; padding: 20/75rem; overflow: hidden; position:relative;
+    li,img{width: 120/75rem; float: left; }
+    li{position:absolute; font-size:22/75rem; text-align: center; line-height: 60/75rem; }
+    li:nth-of-type(1){left: 90/75rem;}
+    li:nth-of-type(2){left: 50%; transform:translateX(-50%);}
+    li:nth-of-type(3){right: 90/75rem;;}
+}
+
+.yuanchuang{
+    width: 10rem; height: auto; background-color: #fff; overflow: hidden;
+    .division{width: 710/75rem; height: 1px; background-color: #ccc; margin: 0 auto; }
+    .t,.b{}
+    .t{width: 10rem; height: 78/75rem; /* border-bottom: 1px solid #ccc; */ background: url(../images/yuanchuang1.png) 30/75rem center no-repeat; background-size: 33/75rem; position:relative;
+
+        span{float: left; font-size: 28/75rem; line-height: 77/75rem; color:#4595e6; margin-left: 80/75rem; }
+        ol{ position:absolute; right:40/75rem; top: 50%; transform:translate(0,-50%); }
+        ol li{width: 6/75rem; height: 6/75rem; background-color: #666; border-radius: 50%; float: left; margin-left: 6/75rem; }
+    }
+    .b{width: 10rem; height: 440/75rem; positon:relative;
+        ul{padding: 10/75rem 20/75rem ;}
+        ul li{height: auto; text-align: center;}
+        ul li img{ width: 326/75rem; height: 160/75rem; border-radius: 10/75rem;}
+        ul li{float: right; margin-right: 20/75rem; }
+        ul li:nth-of-type(1) img{ height: 370/75rem;}
+        ul li:nth-of-type(1){float: left; margin-right: 0; margin-left: 20/75rem;}
+        ul li:nth-of-type(2) img{}
+        ul li:nth-of-type(3){margin-top: 8 /75rem;}
+        ul li p{font-size: 24/75rem; line-height: 20/75rem; }
+    } 
+}
+
+.yuanchuang2{
+    width: 10rem; height: 368/75rem; background-color: #fff; margin: 20/75rem 0; position:relative;
+    ul li{position:absolute; text-align: center; }
+    ul li:nth-of-type(1){width: 226/75rem; left:20/75rem; top:10/75rem; }
+    ul li:nth-of-type(2){width: 226/75rem; left:50%; top:10/75rem; transform:translate(-50%,0) }
+    ul li:nth-of-type(3){width: 226/75rem; right:20/75rem; top:10/75rem; }
+    ul li img{width: 226/75rem; height: 302/75rem; }
+    ul li p{font-size: 24/75rem; line-height: 20/75rem; }
+}
+
+.renqi{
+    width: 10rem; height: auto; background-color: #fff; overflow: hidden;
+    .division{width: 710/75rem; height: 1px; background-color: #ccc; margin: 0 auto; }
+    .t,.b{}
+    .t{width: 10rem; height: 78/75rem; /* border-bottom: 1px solid #ccc; */ background: url(../images/renqititle.png) 30/75rem center no-repeat; background-size: 35/75rem; position:relative;
+
+        span{float: left; font-size: 28/75rem; line-height: 77/75rem; color:#4595e6; margin-left: 80/75rem; }
+        ol{ position:absolute; right:40/75rem; top: 50%; transform:translate(0,-50%); }
+        ol li{width: 6/75rem; height: 6/75rem; background-color: #666; border-radius: 50%; float: left; margin-left: 6/75rem; }
+    }
+    .b{width: 10rem; height: 440/75rem; positon:relative;
+        ul{padding: 10/75rem 15/75rem ;}
+        ul li{height: auto; text-align: center;}
+        ul li img{ width: 350/75rem; height: 202/75rem; border-radius: 10/75rem;}
+        ul li{float: left; margin: 0 5/75rem; }
+        ul li p{font-size: 24/75rem; line-height: 20/75rem; margin-bottom: 16/75rem; }
+    } 
+}
+
+.test{width: 710/75rem; height: 100/75rem; background-color: #97c9fb; margin: 0 auto; }
