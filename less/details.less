@@ -7,9 +7,10 @@ body{background-color: #f0f0f0; overflow-x:hidden; }
     .r img{ width: 52/75rem; top:50%; right:20/75rem; transform:translate(0,-50%);  }
  }
 
+.tBBhide{opacity:0; transform:translate(0,100%); }
 .tabBarsBox{
-    width: 10rem; height: 144/75rem; position:fixed; z-index:9; left:0; bottom:0;
-    .tabBars{width: 10rem; height: 98/75rem; background-color: #4595e6; position:fixed; left:0; bottom:0; 
+    width: 10rem; height: 144/75rem; position:fixed; z-index:9; left:0; bottom:0; 
+    .tabBars{width: 10rem; height: 98/75rem; background-color: #4595e6; position:fixed; left:0; bottom:0; transition:transform .3s ease,opacity .3s ease; 
         ul{margin-left: 20/75rem;}
         ul li{width: 142/75rem; height: 98/75rem; float: left; text-align: center; position:relative; }
         ul li p{color:rgba(255,255,255,.8); font-size: 24/75rem; position:absolute; left:50%; bottom:10/75rem; transform:translate(-50%,0); }
@@ -25,4 +26,4 @@ body{background-color: #f0f0f0; overflow-x:hidden; }
 
     }
 }
-
+.test{width: 200/75rem; height: 3000/75rem; background-color: #AFC; border: 1px solid #333; margin: 0 auto; }
