@@ -125,10 +125,4 @@ body {
 .tabBarsBox .tabBars ul li.current p {
   color: #ffffff;
 }
-.test {
-  width: 2.66666667rem;
-  height: 40rem;
-  background-color: #AFC;
-  border: 1px solid #333;
-  margin: 0 auto;
-}
+/* .test{width: 200/75rem; height: 3000/75rem; background-color: #AFC; border: 1px solid #333; margin: 0 auto; } */
