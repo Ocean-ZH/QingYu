@@ -125,4 +125,116 @@ body {
 .tabBarsBox .tabBars ul li.current p {
   color: #ffffff;
 }
+.title {
+  background-color: #fff;
+  height: 5.6rem;
+  width: 100%;
+  padding: 0.26666667rem;
+  box-sizing: border-box;
+}
+.title .bookcover {
+  width: 3.73333333rem;
+  height: 4.8rem;
+  border-radius: 0.13333333rem;
+  float: left;
+  background: url(../images/details/details-titlepic.png) 0 0 no-repeat;
+  background-size: contain;
+  margin-right: 0.53333333rem;
+}
+.title .bookinfo {
+  width: 3.33333333rem;
+  height: 4.8rem;
+  float: left;
+  position: relative;
+}
+.title .bookinfo h3 {
+  font-size: 0.53333333rem;
+  color: #333;
+  font-family: "Microsoft YaHei";
+  margin-bottom: 0.13333333rem;
+}
+.title .bookinfo dl dt {
+  font-size: 0.32rem;
+  color: #666;
+  font-family: 'Microsoft Yahei';
+}
+.title .bookinfo dl dd {
+  font-size: 0.37333333rem;
+  margin-bottom: 0.13333333rem;
+}
+.title .bookinfo p {
+  font-size: 0.32rem;
+  color: #4595e6;
+}
+.title .bookinfo .startreading {
+  width: 3.2rem;
+  height: 0.90666667rem;
+  background-color: #ff7733;
+  font-size: 0.4rem;
+  color: #fff;
+  text-align: center;
+  line-height: 0.90666667rem;
+  border-radius: 0.90666667rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.title .score {
+  width: 1.33333333rem;
+  height: 1.33333333rem;
+  float: right;
+  margin-right: 0.26666667rem;
+  border-radius: 50%;
+  background-color: #4595e6;
+  font-size: 0.48rem;
+  color: #fff;
+  text-align: center;
+  line-height: 1.33333333rem;
+}
+.section2 {
+  width: 100%;
+  height: 1.86666667rem;
+  margin-top: 0.13333333rem;
+  background-color: #fff;
+}
+.section2 ul {
+  padding: 0.53333333rem 1.33333333rem 0 1.33333333rem;
+}
+.section2 ul li {
+  width: 1.06666667rem;
+  height: 1.33333333rem;
+  float: left;
+  margin-right: ;
+  background-color: #fac;
+}
+.summary {
+  width: 100%;
+  height: 2.66666667rem;
+  margin-top: 0.13333333rem;
+  background-color: #fff;
+  position: relative;
+  padding: 0.26666667rem;
+  box-sizing: border-box;
+}
+.summary p {
+  font-size: 0.32rem;
+  color: #999;
+  margin: 0 0.26666667rem 0 0.26666667rem;
+  text-indent: 2em;
+  line-height: 0.42666667rem;
+}
+.summary img {
+  width: 0.8rem;
+  height: 0.32rem;
+  position: absolute;
+  bottom: 0.13333333rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.chapter {
+  width: 100%;
+  height: 5.6rem;
+  margin-top: 0.13333333rem;
+  background-color: #fff;
+}
 /* .test{width: 200/75rem; height: 3000/75rem; background-color: #AFC; border: 1px solid #333; margin: 0 auto; } */
